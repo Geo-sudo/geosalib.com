@@ -76,11 +76,11 @@ a:hover {
 	border-radius: 0px;
 }
 .btn:hover {
-	background: #DF6B00;
+	background: #13df00;
 }
 .btn-primary {
-	background: #FF7A00;
-}
+	background: #1e7100;
+}	
 .form-control {
 	border-radius: 0px;
 }
@@ -125,8 +125,8 @@ h2 {
 	top: 0px;
 }
 .navbar-inverse .navbar-toggle {
-	border-color: #FF7A00;
-	background-color: #FF7A00;
+	border-color: #00ff04;
+	background-color: #074102;
 }
 .header .navbar {
 	margin: 0;
@@ -239,7 +239,8 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	border-radius: 5px;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-	color: #FF7A00;
+	color: rgb(16, 130, 48);
+	font-weight: bold;
 	background: none;
 }
 .navbar-nav > li:hover > a {
@@ -338,10 +339,11 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 .caption {
 	border-bottom: 1px solid #7a7a7a;
 	border-top: 1px solid #7a7a7a;
-	color: #aeaeae;
+	color: #090909;
 	padding: 15px 0;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+	font-weight: bold;
 	font-size: 16px;
 }
 .heading {
@@ -382,9 +384,18 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 }
 /*Intro Content*/
 #introText {
-	padding: 50px 0;
-	background: #FF7A00;
+    padding: 50px 0;
+    background: linear-gradient(270deg, #AB6D46ff, #1A2E63ff, #6D362Bff, #7A4A3Bff, #254E91ff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 #introText h1 {
 	font-size: 40px;
 	margin: 0;
@@ -414,10 +425,16 @@ padding-top:60px;
 	padding: 20px;
 	margin: 0px;
 }
+
+#myImage {
+    transform: scale(0.9);
+    transform-origin: bottom left;
+}
+
 /*parlex*/
 .bg-parlex {
 	padding-top: 0px;
-	background-image: url('../images/banner-bg.jpg');
+	background-image: url('../images/banner-bg.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -431,6 +448,17 @@ padding-top:60px;
 	margin:0 20px;
 }
 /*Skills*/
+.skillBox {
+    text-align: center; 
+}
+
+.skill-image {
+    width: 100%; 
+    max-width: 200px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
 .skilltitle {
 	text-align: right;
 	font-weight: 600;
@@ -460,7 +488,8 @@ padding-top:60px;
 	float: left;
 }
 .chart-text {
-	margin-top: 106px;
+	margin-top: 25px;
+	margin-bottom: 35px;
 }
 .skillContainer{
 	margin-bottom: 50px;	
