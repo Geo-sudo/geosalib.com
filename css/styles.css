@@ -2,6 +2,15 @@
 Theme Name: ME – Resume and Personal Portfolio Responsive Template
 Author URI: http://webthemez.com/ 
 */
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: light;
+    }
+
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 * {
 	margin: 0;
@@ -16,12 +25,12 @@ body {
 }
 ::selection {
 	color: #fff;
-	background: #FF7A00;
+	background: rgb(16, 130, 48);
 }
 
 ::-moz-selection {
  color: #fff;
- background: #FF7A00;
+ background: rgb(16, 130, 48);
 }
 p {
 	color: #858585;
@@ -58,7 +67,7 @@ p {
 	background: rgba(255,255,255,0.35);
 }
 a {
-	color: #FF7A00;
+	color: rgb(16, 130, 48);
 	text-decoration: none;
 	text-shadow: none;
 	-webkit-transition: all 0.2s linear;
@@ -101,7 +110,7 @@ a:hover {
 	bottom: 20px;
 	right: 20px;
 	z-index: 5;
-	background: #FF7A00;
+	background: rgb(16, 130, 48);
 }
 .topHome .fa-2x {
 	font-size: 20px;
@@ -133,10 +142,10 @@ h2 {
 	background: transparent !important;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-/*background-color: #FF7A00;*/;
+/*background-color: rgb(16, 130, 48);*/;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background: #FF7A00;
+	background: rgb(16, 130, 48);
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
 	color: #fff;
@@ -151,7 +160,7 @@ h2 {
 	color: #FFFFFF;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-	color: #FF7A00;
+	color: rgb(16, 130, 48);
 	background: none;
 }
 .navbar-toggle {
@@ -165,7 +174,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 /*.carousel-inner*/
 #myCarousel {
 	margin-top: 50px;
-	border-bottom: 4px solid #FF7A00;
+	border-bottom: 4px solid rgb(16, 130, 48);
 }
 .carousel-inner > .item {
 }
@@ -192,13 +201,13 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 }
 .actionPanel {
 	padding: 25px 0;
-	background: #FF7A00;
+	background: rgb(16, 130, 48);
 }
 .actionPanel h3 {
 	margin: 0px;
 }
 .circle {
-	background: #FF7A00;
+	background: rgb(16, 130, 48);
 	height: 60px;
 	width: 60px;
 	border-radius: 35px;
@@ -211,7 +220,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	padding: 16px 15px;
 	line-height: 18px;
 	height: 50px;
-	/*color:#FF7A00;*/;
+	/*color:rgb(16, 130, 48);*/;
 }
 .navbar-brand b {
 	color: #fff;
@@ -267,7 +276,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	font-weight: 200;
 }
 .page-section h2 {
-	color: #FF7A00;
+	color: rgb(8, 189, 60);
 }
 .page-section p {
 	font-size: 1.1em;
@@ -277,7 +286,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	background: rgb(44, 44, 44);
 }
 .darkBg .fa {
-	color: #FF7A00;
+	color: rgb(16, 130, 48);
 }
 /*--- Banner ----*/
 .banner-container {
@@ -337,9 +346,9 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	font-weight: normal;
 }
 .caption {
-	border-bottom: 1px solid #7a7a7a;
-	border-top: 1px solid #7a7a7a;
-	color: #090909;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	color: #f3f2f2;
 	padding: 15px 0;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -548,7 +557,7 @@ min-height:200px;
 }
 .experience-details .icon-block i {
 	font-size: 60px;
-	color: #FF7A00;
+	color: rgb(16, 130, 48);
 	margin: 8px 0 0;
 }
 .experience-details span {
@@ -556,7 +565,7 @@ min-height:200px;
 	color: #000;
 }
 .progress-bar {
-	background-color: #FF7A00;
+	background-color: rgb(16, 130, 48);
 }
 /* Services
     -------------------------------------------------*/
@@ -596,7 +605,7 @@ min-height:200px;
 .team-member .member-img img {
 	max-width: 250px;
 	margin: 0 auto;
-	border: 1px solid #FF7A00;
+	border: 1px solid rgb(16, 130, 48);
 }
 .team-member h4 {
 	font-size: 19px;
@@ -818,7 +827,7 @@ footer {
 	background: #fff;
 }
 .social a:hover {
-	color: #FF7A00;
+	color: rgb(4, 147, 45);
 }
 .social a {
 	font-size: 23px;
