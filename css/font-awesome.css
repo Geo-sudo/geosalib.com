@@ -453,6 +453,9 @@
 .fa-arrow-down:before {
   content: "\f063";
 }
+.fa-envelope:before {
+  content: "\f0e0";
+}
 .fa-mail-forward:before,
 .fa-share:before {
   content: "\f064";

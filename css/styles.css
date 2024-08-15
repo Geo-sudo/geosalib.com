@@ -47,7 +47,7 @@ p {
 	color: #BEBEBE;
 }
 .btn, .form-control, .team-socials i {
-	border-radius: 0px !important;
+	border-radius: 0px ;
 }
 .button-outline {
 	-webkit-font-smoothing: antialiased;
@@ -81,8 +81,9 @@ a:hover {
 	text-decoration: none;
 }
 .btn {
+	margin: 30px;
 	border: 0px;
-	border-radius: 0px;
+	border-radius: 50px;
 }
 .btn:hover {
 	background: #13df00;
@@ -880,7 +881,19 @@ background: url(../images/bg2.png) top repeat;
 }
 
 }
-
+#project-details img {
+	width: 100%;
+	margin-bottom: 15px;
+  }
+  
+  #project-details h3 {
+	margin-top: 0;
+  }
+  
+  .portfolio-items .portfolio-item {
+	cursor: pointer;
+  }
+  
 @media (max-width: 768px) {
 .banner-container > img {
 	min-width: 100%;
