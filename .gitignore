@@ -3,3 +3,14 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+blog/node_modules/
+blog/.env
+blog/.env.production
+blog/tina-lock.json
+blog/.astro/
+blog/dist/
+
+blog/npm-debug.log*
+blog/yarn-debug.log*
+blog/yarn-error.log*
+blog/pnpm-debug.log*
