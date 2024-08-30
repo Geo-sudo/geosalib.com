@@ -5,8 +5,9 @@
       <div class="row mt-5 ms-2">
         <div class="col-lg-8">
           <p>
-            Since I have started my journey as a 13-year-old boy, I have learnt
-            various technologies in WEB and software development.
+            Yes, I'm a Jack of All Trades. It's empowering! From 3D Modeling to
+            Cyber Security to Electronics, and even Astrophysics. I've done it
+            all!
           </p>
           <p>
             So far, I can build successful responsive websites that are fast,

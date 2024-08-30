@@ -4,9 +4,9 @@
       <div class="hero">
         <div class="row g-0 gx-4">
           <div class="col-lg-6 rightside">
-            <h2 class="display-5 fw-bold">Hello,</h2>
+            <h2 class="display-5 fw-bold">Ello,</h2>
             <h1 class="display-2 fw-bold">
-              I'm <span class="special color">Mikhael</span>,
+              I'm <span class="special color">Geo</span>,
             </h1>
             <h2 class="display-6">
               <span class="typed-text color fw-bold fs-2">{{ typeValue }}</span>
@@ -18,7 +18,8 @@
               >Contact me</router-link
             > -->
             <p class="life-quote" v-motion-pop :delay="1500">
-              Our life has no script. There will always be a choice.
+              To create beauty, all you need is a working mind and an incomplete
+              idea.
             </p>
             <p
               class="try-dbl"
@@ -29,7 +30,7 @@
               Try a Double <span v-if="!$isMobile()">Click</span
               ><span v-else>Tap</span>
               <span v-if="dblclicked" v-motion-pop :delay="100">
-                anywhere, anytime</span
+                Look around you! Everything is beautiful in its way</span
               >
               :)
             </p>
@@ -53,7 +54,15 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      typeArray: ["WEB DEVELOPER", "STEMer", "AUCian", "ESPORTS LOVER"],
+      typeArray: [
+        "Deep Thinker",
+        "Professional Rabbit Hole Diver",
+        "Cyber Security Researcher",
+        "Amature Astrophysicist",
+        "Coffee-induced Programmer",
+        "Electronics Geek",
+        "STEMer",
+      ],
       typingSpeed: 100,
       erasingSpeed: 100,
       newTextDelay: 1000,
@@ -191,7 +200,7 @@ export default {
       width: 100%;
       max-width: 400px;
       aspect-ratio: 1;
-      background-image: url("https://i.ibb.co/yN7fRmy/mikhael-img.jpg");
+      background-image: url("https://i.postimg.cc/q7YZSJNK/Meeeeeeeeee.png");
       background-size: 115%;
       background-repeat: no-repeat;
       background-position: top;
