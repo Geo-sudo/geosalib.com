@@ -32,7 +32,6 @@
               <span v-if="dblclicked" v-motion-pop :delay="100">
                 Look around you! Everything is beautiful in its way</span
               >
-              ":)"
             </p>
           </div>
           <div class="col-lg-6 leftside">
