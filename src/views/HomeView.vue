@@ -30,7 +30,7 @@
               Try a Double <span v-if="!$isMobile()">Click</span
               ><span v-else>Tap</span>
               <span v-if="dblclicked" v-motion-pop :delay="100">
-                Look around you! Everything is beautiful in its way</span
+                Look around you! Everything is beautiful in its way!</span
               >
             </p>
           </div>
