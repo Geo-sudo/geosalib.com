@@ -6,15 +6,15 @@
         <div class="col-lg-8">
           <p>
             Yes, I'm a Jack of All Trades. It's empowering! From 3D Modeling to
-            Cyber Security to Electronics, and even Astrophysics. I've done it
-            all!
+            Cyber Security to Electronics, and even (Computational)
+            Astrophysics, I've done it all!
           </p>
           <p>
-            So far, I can build successful responsive websites that are fast,
-            easy to use and maintain. My main area of expertise is front-end
-            development, HTML, CSS, JS, building web apps, animations, and
-            coding interactive layouts. That doesn't mean that I have no
-            experience in multiple other fields :).
+            However, my main focus is Astrophysics and Cyber Security. Well,
+            what will you choose, Geo? I might choose one or combine the two:
+            satellite security researcher? I might delve into a completely
+            different field...or a related one. Only Time will tell, and that's
+            exciting!
           </p>
           <!-- <p>
             Think we can work together ? Don't hesistate to
@@ -23,37 +23,63 @@
         </div>
       </div>
       <div class="timeline color mt-5">
-        <div class="year" data-year="2017" v-motion-slide-right>
+        <div class="year" data-year="2019" v-motion-slide-right>
           <div class="row g-4">
             <div class="col-lg-4">
               <div class="card w-100">
                 <div class="card-img-top">
                   <div class="icon-container">
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
                     <svg
-                      class="color"
+                      width="800px"
+                      height="800px"
+                      viewBox="0 -24 256 256"
+                      version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 512"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      preserveAspectRatio="xMidYMid"
                     >
-                      <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                      <path
-                        d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"
-                      />
+                      <g>
+                        <path
+                          d="M100.43032,115.194555 C101.361124,98.5893536 109.492492,83.9599162 121.759794,73.5893487 C133.790003,63.4031858 149.98249,57.1773328 167.650214,57.1773328 C185.300375,57.1773328 201.492862,63.4031858 213.531852,73.5893487 C225.790373,83.9599162 233.921741,98.5893536 234.861326,115.176993 C235.792131,132.238816 228.934033,148.088836 216.903824,159.838048 C204.636522,171.789227 187.188328,179.288351 167.650214,179.288351 C148.1121,179.288351 130.62878,171.789227 118.37026,159.838048 C106.331269,148.088836 99.4907342,132.238816 100.43032,115.194555 Z"
+                          fill="#FFFFFF"
+                        ></path>
+                        <path
+                          d="M133.167672,116.676183 C133.645276,108.155909 137.817552,100.649417 144.112012,95.3281876 C150.284817,90.1015783 158.593324,86.9070386 167.658788,86.9070386 C176.71524,86.9070386 185.023747,90.1015783 191.201058,95.3281876 C197.491012,100.649417 201.663288,108.155909 202.145398,116.667172 C202.623002,125.421743 199.104052,133.554527 192.931246,139.58315 C186.636786,145.715405 177.683965,149.563271 167.658788,149.563271 C157.63361,149.563271 148.662766,145.715405 142.372812,139.58315 C136.195501,133.554527 132.685562,125.421743 133.167672,116.676183 Z"
+                          fill="#265787"
+                        ></path>
+                        <path
+                          d="M78.4107749,134.179185 C78.4694744,137.520542 79.5350962,144.01361 81.133529,149.084344 C84.4929469,159.817323 90.1913143,169.746571 98.1202631,178.497312 C106.256918,187.491883 116.276472,194.716438 127.849305,199.845871 C140.013649,205.23268 153.193946,207.978011 166.884477,207.955572 C180.552431,207.937373 193.732728,205.137858 205.897072,199.710411 C217.469906,194.531308 227.480429,187.275146 235.603538,178.27606 C243.527971,169.489196 249.217308,159.541887 252.585757,148.808908 C254.279012,143.385977 255.349149,137.881769 255.778107,132.3595 C256.198034,126.918508 256.021935,121.468484 255.249811,116.022976 C253.741685,105.411912 250.070708,95.4555722 244.417494,86.3797254 C239.247423,78.0398801 232.582771,70.7385646 224.658338,64.5931778 L224.676399,64.5796318 L144.705094,3.1754327 C144.632849,3.12124854 144.574149,3.06254903 144.497388,3.01288022 C139.250556,-1.01480899 130.427568,-1.00126295 124.656955,3.03545695 C118.823127,7.11733032 118.154856,13.8677736 123.347505,18.1257455 L123.324928,18.1483222 L156.679794,45.2720095 L55.0167639,45.3803778 L54.8813035,45.3803778 C46.4782434,45.3894085 38.4002883,50.9026468 36.8018556,57.8698267 C35.1582694,64.9679516 40.8656676,70.8559636 49.6028633,70.887571 L49.5893173,70.9191785 L101.118453,70.8198408 L9.16793408,141.399224 C9.05053507,141.485016 8.92410536,141.575323 8.81573704,141.661114 C0.14175613,148.303189 -2.66227414,159.347727 2.80129531,166.337484 C8.34614099,173.444639 20.1357111,173.458186 28.8999989,166.378122 L79.0835616,125.306529 C79.0835616,125.306529 78.3520754,130.851375 78.4107749,134.179185 Z M207.36456,152.74629 C197.024416,163.280594 182.548215,169.254398 166.884477,169.286098 C151.198163,169.313097 136.721962,163.393478 126.381818,152.877235 C121.329145,147.752317 117.61753,141.855274 115.328249,135.574427 C113.084122,129.401948 112.21266,122.85018 112.790624,116.239713 C113.336981,109.778252 115.260519,103.614804 118.330955,98.0383504 C121.347206,92.5567196 125.501325,87.6033843 130.630759,83.4131426 C140.681921,75.2223038 153.478413,70.7882334 166.8619,70.7701166 C180.258934,70.7521106 193.046396,75.1455429 203.106588,83.3092897 C208.226991,87.48147 212.376595,92.4167439 215.392846,97.889344 C218.476828,103.461282 220.38682,109.602153 220.955753,116.081676 C221.524687,122.683112 220.653225,129.22585 218.409098,135.402844 C216.115302,141.701753 212.417233,147.598795 207.36456,152.74629 Z"
+                          fill="#EA7600"
+                        ></path>
+                      </g>
                     </svg>
                   </div>
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">HTML & CSS</h4>
+                  <h4 class="card-title">3D Modelling</h4>
                   <p class="card-text">
-                    The basics I have been learning since day one in my journey.
-                    I have used them a lot of times in various project types for
-                    almost
+                    My journey started with 3D Modelling in Blender
                     <strong
-                      ><em>{{ current_year - 2017 }} years</em></strong
-                    >.
+                      ><em>{{ current_year - 2019 }} years ago</em></strong
+                    >. I did all sorts of projects from abstract art to game
+                    objects. This sparked the creationist inside me, and got me
+                    dappling in Music Production and Game Development (and
+                    consequently programming).
                   </p>
                 </div>
               </div>
             </div>
+            <div class="col-lg-4"></div>
+          </div>
+        </div>
+        <div
+          class="year"
+          data-year="2020"
+          v-motion-slide-visible-once-right
+          v-motion-slide-right
+        >
+          <div class="row g-4">
             <div class="col-lg-4">
               <div class="card">
                 <div class="card-img-top">
@@ -73,46 +99,15 @@
                 <div class="card-body">
                   <h4 class="card-title">Python</h4>
                   <p class="card-text">
-                    Used Python in almost every project I have made, dealing
-                    with various packages for automating, webscraping, and data
-                    analysis purposes. It's been my ultimate assistant in many
-                    projects.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="year"
-          data-year="2018"
-          v-motion-slide-visible-once-right
-          v-motion-slide-right
-        >
-          <div class="row g-4">
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-img-top">
-                  <div class="icon-container">
-                    <svg
-                      class="color"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 448 512"
-                    >
-                      <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                      <path
-                        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">JS + Libraries & Toolkits</h4>
-                  <p class="card-text">
-                    Throughout my journey, I have used javascript along with
-                    some of its numerous libraries such as jQuery, skrollr,
-                    anime.js, and many more. Of course,
-                    <strong>Node JS & Bootstrap</strong> are my close friends.
+                    Used it in many projects and is my quick-project go-to
+                    language. I used in making a Base64 encoder/decoder; a
+                    text-to-speech script using Google's API; a smart home
+                    system that utilizes motors, pumps, alarms, and Twillio's
+                    API; a script for calculating and visualizing galaxy density
+                    profiles (through a modified version of Sérsic profile)
+                    using Numpy and Matplotlib; and a realistic Newtonian
+                    simulation of a Binary Star System that uses real data and
+                    can be expanded into larger N-body systems.
                   </p>
                 </div>
               </div>
@@ -134,18 +129,14 @@
                   </div>
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">Kotlin & Android Studio</h4>
-                  <p class="card-text">
-                    I've learnt them as an introduction to mobile development
-                    world before switching to Flutter. I have used this
-                    combination in various small personal projects.
-                  </p>
+                  <h4 class="card-title">Ipsum</h4>
+                  <p class="card-text">Ipsum</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="year" data-year="2019" v-motion-slide-visible-once-right>
+        <div class="year" data-year="2021" v-motion-slide-visible-once-right>
           <div class="row g-4">
             <div class="col-lg-4">
               <div class="card">
@@ -178,107 +169,7 @@
             </div>
           </div>
         </div>
-        <div class="year" data-year="2020" v-motion-slide-visible-once-right>
-          <div class="row g-4">
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-img-top">
-                  <div class="icon-container">
-                    <svg
-                      class="color"
-                      xmlns="http://www.w3.org/2000/svg"
-                      version="1.1"
-                      viewBox="0 0 166 202"
-                    >
-                      <defs>
-                        <linearGradient id="triangleGradient">
-                          <stop
-                            offset="20%"
-                            stop-color="#000000"
-                            stop-opacity=".55"
-                          />
-                          <stop
-                            offset="85%"
-                            stop-color="#616161"
-                            stop-opacity=".01"
-                          />
-                        </linearGradient>
-                        <linearGradient
-                          id="rectangleGradient"
-                          x1="0%"
-                          x2="0%"
-                          y1="0%"
-                          y2="100%"
-                        >
-                          <stop
-                            offset="20%"
-                            stop-color="#000000"
-                            stop-opacity=".15"
-                          />
-                          <stop
-                            offset="85%"
-                            stop-color="#616161"
-                            stop-opacity=".01"
-                          />
-                        </linearGradient>
-                      </defs>
-                      <path
-                        class="color"
-                        fill="#dc143c"
-                        fill-opacity=".8"
-                        d="M37.7 128.9 9.8 101 100.4 10.4 156.2 10.4"
-                      />
-                      <path
-                        class="color"
-                        fill="#dc143c"
-                        fill-opacity=".8"
-                        d="M156.2 94 100.4 94 79.5 114.9 107.4 142.8"
-                      />
-                      <path
-                        class="color"
-                        fill="#dc143c"
-                        d="M79.5 170.7 100.4 191.6 156.2 191.6 156.2 191.6 107.4 142.8"
-                      />
-                      <g
-                        transform="matrix(0.7071, -0.7071, 0.7071, 0.7071, -77.667, 98.057)"
-                      >
-                        <rect
-                          class="color"
-                          width="39.4"
-                          height="39.4"
-                          x="59.8"
-                          y="123.1"
-                          fill="#dc143c"
-                        />
-                        <rect
-                          width="39.4"
-                          height="5.5"
-                          x="59.8"
-                          y="162.5"
-                          fill="url(#rectangleGradient)"
-                        />
-                      </g>
-                      <path
-                        d="M79.5 170.7 120.9 156.4 107.4 142.8"
-                        fill="url(#triangleGradient)"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Dart & Flutter</h4>
-                  <p class="card-text">
-                    Since I've got hold on this combination in
-                    <strong>IEEE HSB TEXOS 2.0 Workshop</strong>, I've used it
-                    in multiple small to medium projects including school
-                    capstone projects.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="year" data-year="2021" v-motion-slide-visible-once-right>
+        <div class="year" data-year="2022" v-motion-slide-visible-once-right>
           <div class="row g-4">
             <div class="col-lg-4">
               <div class="card">
@@ -346,15 +237,15 @@
                   <p class="card-text">
                     Picked it up to improve problem-solving skills along with
                     learning algorithms and data structures. Used it for a while
-                    practising on <strong>CodeForces</strong>. Also, used it in
-                    some projects along with <strong>Arduino</strong>.
+                    practising on <strong>CodeForces</strong>. Passed the
+                    qualification round of <strong>ECPC</strong>.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="year" data-year="2022" v-motion-slide-visible-once-right>
+        <div class="year" data-year="2023" v-motion-slide-visible-once-right>
           <div class="row g-4">
             <div class="col-lg-4">
               <div class="card">
