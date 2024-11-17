@@ -25,15 +25,6 @@
                       maxlength="50"
                       class="color"
                     />
-                    <textarea
-                      name="message"
-                      v-model="message"
-                      required
-                      placeholder="Message"
-                      class="color"
-                    ></textarea>
-                  </div>
-                  <div class="col-lg-6 ps-lg-2 pb-0">
                     <input
                       type="email"
                       name="email"
@@ -43,9 +34,27 @@
                       maxlength="50"
                       class="color"
                     />
-                    <input type="submit" name="submit" class="color" />
+                    <input
+                      type="subject"
+                      name="subject"
+                      v-model="subject"
+                      required
+                      placeholder="subject"
+                      maxlength="75"
+                      class="color"
+                    />
+                  </div>
+                  <div class="col-lg-6 ps-lg-2 pb-0">
+                    <textarea
+                      name="message"
+                      v-model="message"
+                      required
+                      placeholder="Message"
+                      class="color"
+                    ></textarea>
                   </div>
                 </div>
+                <input type="submit" name="submit" class="color" />
               </form>
               <div class="sentMessage" v-if="sentMessage" v-motion-slide-right>
                 <p>
@@ -127,19 +136,17 @@ export default {
       isFadingOut: false,
       name: "",
       email: "",
+      subject: "",
       message: "",
     };
   },
   methods: {
     showSentMessage() {
       this.sentMessage = true;
-      setTimeout(() => {
-        this.sentMessage = false;
-      }, 5000);
     },
     async submitForm() {
       // Validation: Check if fields are empty
-      if (!this.name || !this.email || !this.message) {
+      if (!this.name || !this.email || !this.subject || !this.message) {
         return alert("Please fill in all fields");
       }
 
@@ -155,6 +162,7 @@ export default {
           access_key: WEB3FORMS_ACCESS_KEY,
           name: this.name,
           email: this.email,
+          subject: this.subject,
           message: this.message,
         }),
       });
@@ -166,6 +174,7 @@ export default {
         // Reset form fields
         this.name = "";
         this.email = "";
+        this.subject = "";
         this.message = "";
       } else {
         alert("An error occurred. Please try again later.");
@@ -295,6 +304,7 @@ export default {
         margin: 0;
       }
       input[type="submit"] {
+        margin-top: 1rem;
         &:hover {
           border: 3px solid;
           border-color: $main-bg-color;
