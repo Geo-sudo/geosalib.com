@@ -127,7 +127,6 @@ export default {
       isFadingOut: false,
       name: "",
       email: "",
-      subject: "",
       message: "",
     };
   },
