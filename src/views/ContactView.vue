@@ -140,7 +140,7 @@ export default {
     },
     async submitForm() {
       // Validation: Check if fields are empty
-      if (!this.name || !this.email || !this.subject || !this.message) {
+      if (!this.name || !this.email || !this.message) {
         return alert("Please fill in all fields");
       }
 
@@ -156,7 +156,6 @@ export default {
           access_key: WEB3FORMS_ACCESS_KEY,
           name: this.name,
           email: this.email,
-          subject: this.subject,
           message: this.message,
         }),
       });
@@ -168,7 +167,6 @@ export default {
         // Reset form fields
         this.name = "";
         this.email = "";
-        this.subject = "";
         this.message = "";
       } else {
         alert("An error occurred. Please try again later.");
