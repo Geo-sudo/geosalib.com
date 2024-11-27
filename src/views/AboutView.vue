@@ -6,8 +6,9 @@
         <div class="col-lg-5 left-side">
           <p class="about-text">
             I'm an Egyptian
-            <span class="keyword">ex-STEMer</span>, freshman at
-            <span class="keyword">AUC</span>. I have an enthusiatic passion for
+            <span class="keyword">senior STEMer</span>, and hopefully a future
+            Swattie at <span class="keyword">Swarthmore</span>. I have an
+            enthusiatic passion for
             <span class="keyword">computer science</span>. I found it at the age
             of 13, and I will follow it till I RIP. So far, I've been working on
             my own to grow this passion, and I'm willing to continue this work
@@ -15,8 +16,6 @@
             <!-- <span class="DCollege"> -->
             dream college.
             <!-- </span> -->
-            I love Hip-Hop Music as well as E-Sports. Also, I'm a big Marvel
-            fan, especially <em>Spidey</em>.
           </p>
           <svg
             class="spider-web"
