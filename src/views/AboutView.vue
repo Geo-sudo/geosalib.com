@@ -7,7 +7,7 @@
           <p class="about-text">
             I'm an Egyptian
             <span class="keyword">senior STEMer</span>, and hopefully a future
-            student at <span class="keyword">Dartmouth</span>. I have an
+            student at <span class="keyword">UFE</span>. I have an
             enthusiatic passion for
             <span class="keyword">computer science</span>. I found it at the age
             of 13, and I will follow it till I RIP. So far, I've been self-studying to grow this passion (and hosting hackathons with the Hack Foundation to help high schoolers do the same). I have also been mesmerized by Astrophysics/Astornomy and have done a few computational projects.
