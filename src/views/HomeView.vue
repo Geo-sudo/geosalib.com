@@ -29,7 +29,13 @@
             >
               Try a Double <span v-if="!$isMobile()">Click</span
               ><span v-else>Tap</span>
-              <span v-if="dblclicked" v-motion-pop :delay="100">
+              <span
+                class="special color"
+                :class="themeColor"
+                v-if="dblclicked"
+                v-motion-pop
+                :delay="100"
+              >
                 Look around you! Everything is beautiful in its way!</span
               >
             </p>
@@ -198,7 +204,7 @@ export default {
       width: 100%;
       max-width: 400px;
       aspect-ratio: 1;
-      background-image: url("https://i.postimg.cc/q7YZSJNK/Meeeeeeeeee.png");
+      background-image: url("../assets/geo_img.png");
       background-size: 115%;
       background-repeat: no-repeat;
       background-position: top;
