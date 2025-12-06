@@ -6,11 +6,13 @@
         <div class="col-lg-5 left-side">
           <p class="about-text">
             I'm an Egyptian
-            <span class="keyword">senior STEMer</span>, and hopefully a future
-            student at <span class="keyword">UFE</span>. I have an
-            enthusiatic passion for
-            <span class="keyword">computer science</span>. I found it at the age
-            of 13, and I will follow it till I RIP. So far, I've been self-studying to grow this passion (and hosting hackathons with the Hack Foundation to help high schoolers do the same). I have also been mesmerized by Astrophysics/Astornomy and have done a few computational projects.
+            <span class="keyword">knowledge seeker</span>. I have an enthusiatic
+            passion for <span class="keyword">CS & IT</span>, which I found at
+            the age of 13. So far, I've been self-studying to grow this passion
+            (and hosting hackathons with the Hack Foundation to help high
+            schoolers do the same). I have also been mesmerized by
+            Astrophysics/Astornomy and have done a few computational projects
+            and co-authored a review article.
           </p>
           <svg
             class="spider-web"
@@ -70,73 +72,262 @@
       </div>
     </div>
   </section>
-</template> < script >
-    export default {
-        name: "AboutView",
-        props: ["themeColor"],
-        data() {
-            return {
-                quoteNumber: null,
-                changeQuote: null,
-                lastone: null,
-                shownQuotes: [],
-                quotes: [{
-                    "quote-img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Swain_0.jpg",
-                    quote: '"A calculated risk is no risk at all."',
-                    "quote-cite": "- Swain, The Noxian Grand General",
-                }, {
-                    "quote-img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_10.jpg",
-                    quote: '"Do not fear the shrouded path."',
-                    "quote-cite": "- Zed, The Master of Shadows",
-                }, {
-                    "quote-img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Karma_2.jpg",
-                    quote: '"Never become a monster to defeat one."',
-                    "quote-cite": "- Karma, The Enlightened One",
-                }, {
-                    "quote-img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jayce_5.jpg",
-                    quote: '"I fight for a brighter tomorrow!"',
-                    "quote-cite": "- Jayce, The Defender of Tomorrow",
-                }, {
-                    "quote-img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MasterYi_52.jpg",
-                    quote: '"A true master is an eternal student."',
-                    "quote-cite": "- Master YI, The Wuju Bladesman",
-                }, {
-                    "quote-img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nami_15.jpg",
-                    quote: '"The softest water wears down the hardest rock."',
-                    "quote-cite": "- Nami, The Tidecaller",
-                }, {
-                    "quote-img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pantheon_5.jpg",
-                    quote: '"I have found my limit a thousand times, and still I press further."',
-                    "quote-cite": "- Pantheon, The Unbreakable Spear",
-                }, {
-                    "quote-img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_8.jpg",
-                    quote: '"A wise master once said: ‘Be like water.’ Guess I’m kind of a tsunami."',
-                    "quote-cite": "- Sett, The Boss",
-                }, {
-                    "quote-img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MonkeyKing_7.jpg",
-                    quote: '"No matter how far it is to the top, it’s still within my grasp!"',
-                    "quote-cite": "- Wukong, The Monkey King",
-                }, {
-                    "quote-img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_15.jpg",
-                    quote: '"War separates men from kings, predators from prey."',
-                    "quote-cite": "- Darius, The Hand of Noxus",
-                }, {
-                    "quote-img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_28.jpg",
-                    quote: "\"It' not how much time you have, it's how you use it.\"",
-                    "quote-cite": "- Ekko, The Boy Who Shattered Time",
-                }, {
-                    "quote-img": "https://i.ibb.co/tqcdpKj/thor.jpg",
-                    quote: '"I choose to run towards my problems, and not away from them. Because that\'s what heroes do."',
-                    "quote-cite": "- Thor Odinson, God of Thunder",
-                }, {
-                    "quote-img": "https://i.ibb.co/Bqw8P9j/thanos.jpg",
-                    quote: '"The hardest choices require the strongest wills."',
-                    "quote-cite": "- Thanos, The Mad Titan",
-                }, {
-                    "quote-img": "https://i.ibb.co/QkxfX4m/ironman.jpg",
-                    quote: '"Heroes are made by the paths they choose, not the powers they are graced with."',
-                    "quote-cite": "- Tony Stark, Iron Man",
-                }, {
-                    "quote-img": "https://i.ibb.co/KDwDLJd/spiderman.jpg",
-                    quote: '"With great power comes great responsibility."',
-                    "quote-cite": "-
+</template>
+<script>
+export default {
+  name: "AboutView",
+  props: ["themeColor"],
+  data() {
+    return {
+      quoteNumber: null,
+      changeQuote: null,
+      lastone: null,
+      shownQuotes: [],
+      quotes: [
+        {
+          "quote-img":
+            "https://upload.wikimedia.org/wikipedia/commons/1/1b/Nietzsche187a.jpg",
+          quote:
+            '"There will always be rocks in the road ahead of us. They will be stumbling blocks or stepping stones; it all depends on how you use them."',
+          "quote-cite": "- Friedrich Nietzsche",
+        },
+        {
+          "quote-img":
+            "https://m.media-amazon.com/images/M/MV5BM2FkYjFlM2MtZjU3Yi00Y2I4LWEwMmMtZDUyZTUwMTBkYmRkXkEyXkFqcGc@._V1_.jpg",
+          quote:
+            '"It does not do to dwell on dreams and forget to live, remember that."',
+          "quote-cite": "- Albus Dumbledore",
+        },
+        {
+          "quote-img":
+            "https://www.visitstaugustine.com/sites/default/files/styles/hero_desktop/public/articles/cover/saint_augustine_by_philippe_de_champaigne.jpg",
+          quote:
+            '"In doing what we ought we deserve no praise, because it is our duty."',
+          "quote-cite": "- St. Augustine of Hippo",
+        },
+        {
+          "quote-img":
+            "https://smashingtimes.ie/wp-content/uploads/2018/07/Viktor-Frankl-2-1.jpg",
+          quote:
+            '"When man can\'t find meaning in his life, he distracts himself with pleasure."',
+          "quote-cite": "- Viktor Frankl",
+        },
+        {
+          "quote-img":
+            "https://www.hollywoodinsider.com/wp-content/uploads/2021/06/Hollywood-Insider-Carl-Sagan-Tribute-Mystic-Astronomer-Physicist.jpg",
+          quote: '"Every one of us is, in the cosmic perspective, precious."',
+          "quote-cite": "- Carl Sagan",
+        },
+      ],
+    };
+  },
+  methods: {
+    resetAndChangeQuote() {
+      this.changeQuoteMethod();
+      clearInterval(this.changeQuote);
+      this.changeQuote = setInterval(() => {
+        this.changeQuoteMethod();
+      }, 10000);
+    },
+    changeQuoteMethod() {
+      this.shownQuotes.push(this.quoteNumber);
+      this.lastone = this.quoteNumber;
+      this.quoteNumber = null;
+      setTimeout(() => {
+        if (this.shownQuotes.length == this.quotes.length) {
+          this.shownQuotes = [this.lastone];
+        }
+        do {
+          this.quoteNumber = Math.floor(Math.random() * this.quotes.length);
+        } while (this.shownQuotes.includes(this.quoteNumber));
+      }, 400);
+    },
+  },
+  mounted() {
+    // this.quoteNumber = Math.floor(Math.random() * this.quotes.length);
+    this.quoteNumber = this.quotes.length - 1;
+    // ThemeColor
+    Array.from(document.getElementsByClassName("color")).forEach((element) => {
+      element.classList.add(this.themeColor);
+    });
+    // End ThemeColor
+    this.changeQuote = setInterval(() => {
+      this.shownQuotes.push(this.quoteNumber);
+      this.lastone = this.quoteNumber;
+      this.quoteNumber = null;
+      setTimeout(() => {
+        if (this.shownQuotes.length == this.quotes.length) {
+          this.shownQuotes = [this.lastone];
+        }
+        do {
+          this.quoteNumber = Math.floor(Math.random() * this.quotes.length);
+        } while (this.shownQuotes.includes(this.quoteNumber));
+      }, 400);
+    }, 10000);
+  },
+  unmounted() {
+    clearInterval(this.changeQuote);
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+@import "../assets/scss/_variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.left-side {
+  position: relative;
+  z-index: 1;
+  height: fit-content;
+  .about-text {
+    position: relative;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    letter-spacing: 0.4px;
+    line-height: 1.7;
+    font-size: 1.05rem;
+    z-index: 1;
+    .keyword {
+      font-weight: 900;
+      font-style: italic;
+    }
+    .DCollege {
+      position: relative;
+      &:hover {
+        text-decoration: line-through;
+      }
+      &:hover::after {
+        content: "Davidson College";
+        height: fit-content;
+        width: fit-content;
+        min-width: 100%;
+        white-space: pre;
+        // background-color: red;
+        position: absolute;
+        bottom: -110%;
+        left: 0;
+        padding-top: 2px;
+        text-align: center;
+        color: rgb(214, 214, 214);
+        font-weight: 900;
+        font-size: 0.85em;
+        font-style: italic;
+      }
+    }
+    & ~ .spider-web {
+      position: absolute;
+      bottom: -35%;
+      left: -20%;
+      width: 37%;
+      z-index: 0;
+      path {
+        fill: #555 !important;
+      }
+    }
+  }
+}
+
+.quote-container {
+  margin-top: -2rem;
+  position: relative;
+  .quote-img {
+    position: relative;
+    padding: 30px;
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-collapse: separate;
+      box-shadow: inset 0 -15px 40px 80px $main-bg-color;
+    }
+    img {
+      width: 100%;
+      display: block;
+    }
+    // & ~ p {
+    //   text-align: center;
+    //   margin-top: -5rem;
+    //   z-index: 2;
+    // }
+  }
+  .quote {
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 60%;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-style: italic;
+    font-family: "Bree Serif", serif;
+    letter-spacing: 0.75px;
+    font-size: 1.1rem;
+  }
+  .quote-cite {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: -20px;
+    right: 40px;
+    font-style: italic;
+    font-family: "Bree Serif", serif;
+    letter-spacing: 0.75px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .left-side {
+    margin-top: 0.7rem;
+    .spider-web {
+      bottom: -15% !important;
+      left: -12.5% !important;
+    }
+  }
+  .quote-container {
+    z-index: 1;
+    margin-top: 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    .quote-img {
+      padding: 0;
+      &::after {
+        display: none;
+      }
+    }
+    .quote {
+      // bottom: -10px;
+      position: relative;
+      padding-top: 2rem;
+      width: 90%;
+    }
+    .quote-cite {
+      bottom: -40px;
+      // position: relative;
+    }
+  }
+}
+
+.fade-quote-enter-active,
+.fade-quote-leave-active {
+  transition: all 0.4s ease;
+}
+
+.fade-quote-enter-from,
+.fade-quote-leave-to {
+  opacity: 0;
+}
+
+.fade-quote-enter-to,
+.fade-quote-leave-from {
+  opacity: 1;
+}
+</style>
