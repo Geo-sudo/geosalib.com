@@ -25,7 +25,7 @@
               review article</a
             >. I'm also a Christian Oriental Orthodox!
           </p>
-          <img class="spider-web" src="../assets/coptic.png" alt="" />
+          <img class="spider-web" src="../assets/Polaris.png" alt="" />
         </div>
         <div class="col-lg-7">
           <transition name="fade-quote" mode="out-in">

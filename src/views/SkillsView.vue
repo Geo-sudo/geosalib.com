@@ -293,16 +293,16 @@
                     Participated in the International Astronomy and Astrophysics
                     Competition (IAAC) twice. Ranked
                     <strong><em>top 3% of 5040</em></strong> participants (Gold
-                    Medal) in 2024 and
+                    Honor) in 2024 and
                     <strong><em>top 20% of 4500</em></strong> participants
-                    (Silver Medal) in 2023. Made a script for calculating and
+                    (Silver Honor) in 2023. Made a script for calculating and
                     visualizing galaxy density profiles through a modified
                     version of Sérsic profile using Numpy and Matplotlib.
                     Created a framework for simulating N-body Lagrangian
                     Newtonian physics in Python. Check them out
                     <a
                       target="_blank"
-                      href="https://github.com/Geo-sudo/Computational-Astrophysics/"
+                      href="https://github.com/Geo-sudo/Projects/tree/main/Computational-Astrophysics/"
                       >Here</a
                     >!
                   </p>
