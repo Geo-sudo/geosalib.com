@@ -60,6 +60,8 @@ import frankl from "../assets/frankl.jpg";
 import john from "../assets/john.png";
 import sagan from "../assets/sagan.png";
 import tertullian from "../assets/tertullian.png";
+import newton from "../assets/newton.webp";
+import darwin from "../assets/darwin.jpg";
 
 export default {
   name: "AboutView",
@@ -75,48 +77,61 @@ export default {
           "quote-img": nietzsche,
           quote:
             '"There will always be rocks in the road ahead of us. They will be stumbling blocks or stepping stones; it all depends on how you use them."',
-          "quote-cite": "- Friedrich Nietzsche",
+          "quote-cite": "— Friedrich Nietzsche",
         },
-        {
-          "quote-img": dumbledore,
-          quote:
-            '"It does not do to dwell on dreams and forget to live, remember that."',
-          "quote-cite": "- Albus Dumbledore",
-        },
+
         {
           "quote-img": augustine,
           quote:
             '"In doing what we ought we deserve no praise, because it is our duty."',
-          "quote-cite": "- St. Augustine of Hippo",
+          "quote-cite": "— St. Augustine of Hippo",
         },
         {
           "quote-img": frankl,
           quote:
             '"When man can\'t find meaning in his life, he distracts himself with pleasure."',
-          "quote-cite": "- Viktor E. Frankl",
+          "quote-cite": "— Viktor E. Frankl",
         },
         {
           "quote-img": sagan,
           quote: '"Every one of us is, in the cosmic perspective, precious."',
-          "quote-cite": "- Carl Sagan",
+          "quote-cite": "— Carl Sagan",
         },
         {
           "quote-img": chaplin,
           quote:
             '"Life is a tragedy when seen in close-up, but a comedy in long-shot."',
-          "quote-cite": "- Charlie Chaplin",
+          "quote-cite": "— Charlie Chaplin",
         },
         {
           "quote-img": tertullian,
           quote:
             '"Truth persuades by teaching, but does not teach by persuading."',
-          "quote-cite": "- Tertullian",
+          "quote-cite": "— Tertullian",
+        },
+        {
+          "quote-img": darwin,
+          quote:
+            '"The mystery of the beginning of all things is insoluble by us; and I for one must be content to remain an agnostic."',
+          "quote-cite": "— Charles Darwin",
+        },
+        {
+          "quote-img": newton,
+          quote:
+            '"He who thinks half-heartedly will not believe in God; but he who really thinks has to believe in God."',
+          "quote-cite": "— Isaac Newton",
         },
         {
           "quote-img": john,
           quote:
             '"Evil is nothing else than absence of goodness, just as darkness also is absence of light. For goodness is the light of the mind, and, similarly, evil is the darkness of the mind."',
-          "quote-cite": "- John of Damascus",
+          "quote-cite": "— John of Damascus",
+        },
+        {
+          "quote-img": dumbledore,
+          quote:
+            '"It does not do to dwell on dreams and forget to live, remember that."',
+          "quote-cite": "— Albus Dumbledore",
         },
       ],
     };
